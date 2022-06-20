@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login.americanas</title>
+    <link rel="stylesheet" href="style.css">
+    <form action="recebe_form.php" method="post"></form>
+</head>
+<body>
+    <h1>criar seu cadastro</h1>
+    <h3>veja seus pedidos de forma fácil, compre mais rápido e tenha uma experiência personalizada :)</h3>
+    <h5>*campos obrigatórios</h5>
+
+    <form>
+        
+        <section>
+        *nome completo<br>
+        <input type="text" name="nome" value="nome" required /><br><br>
+        </section>
+        
+        <section>
+        gênero<br>
+        pra gente te conhecer um pouquinho melhor :)<br><br><br>
+         
+
+        feminino <input type="radio" name="genero" value="feminino"/><br>
+
+        masculino <input type="radio" name="genero" value="masculino"/><br>
+
+        não informar <input type="radio" name="genero" value="nao_informar"/><br><br>
+        </section>
+
+        <section>
+        *data de nascimento<br><br>
+        
+        necessário para identificar a maioridade, no formato DD/MM/AAAA<br>
+        <input type="date" name="date" value="data_nascimento" required /> <br><br>
+        </section>
+        
+        <section>
+        *CPF<br>
+           
+        necessário pra emissão das Notas Fiscais<br><br>
+        <input type="text" placeholder="Apenas Números" required /><br><br>
+        
+        
+        é pessoa jurídica? conheça a americanas empresas
+        <input type="checkbox" name="pj" value="true"/><br><br>
+        </section>
+        
+        <section>
+        *telefone<br>
+
+        caso a gente precise entrar em contato sobre os pedidos<br>
+        <input type="tel" name="telefone" required/><br><br>
+        </section>
+
+        <section>
+        *email<br>
+        
+        <input type="email" name="email" value="email" required /><br><br>
+
+        Receber e-mais promocionais
+        <input type="checkbox" name="receber" value="true" /><br><br>
+        </section>
+        
+        <section>
+        *senha<br>
+        
+        precisa ter entre 6 e 20 caracteres<br>
+        <input type="password" name="password" value="password" required /><br><br>
+
+        <input type="range" minlength="6" maxlength="20"/>
+        </section>
+
+        <section>
+        
+            compartilhar meus dados com parceiros para ter conteúdos personalizados, veja como funciona.
+            <input type="checkbox" name="compartilhar"/><br><br>
+        </section>
+
+        <section>
+            <input type="submit" value="criar seu cadastro"/><br><br>
+        </section>
+
+        Não se preocupe, nosso site é seguro! Ao criar o seu cadastro, você concorda com a nossa <a href="https://www.americanas.com.br/hotsite/politica-de-privacidade">Política de privacidade.</a><br><br>
+
+        <section>
+        Já tem cadastro?<a href="http://localhost/GitHub/atividade1/login.html">entrar</a><br><br>
+        </section>
+
+
+    </form>
+
+</body>
+</html>
