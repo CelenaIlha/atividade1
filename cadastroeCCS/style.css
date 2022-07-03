@@ -1,18 +1,9 @@
-#topo {
-    width: 300px;
-
-}
-
-
-
-
 #login-cliente {
-    
     width: 500px;
-    background-color: red;
-    margin: 30px;
-    border: 5px blue;
-    
+    color: red;
+    border-color: blue;
+
+
 }
 body {
 
